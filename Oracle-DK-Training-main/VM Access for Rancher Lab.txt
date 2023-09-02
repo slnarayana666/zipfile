@@ -1,0 +1,9 @@
+Mansi : ubuntu@ec2-54-179-124-19.ap-southeast-1.compute.amazonaws.com
+KotiReddy: ubuntu@ec2-13-213-1-154.ap-southeast-1.compute.amazonaws.com
+Aryan: ubuntu@ec2-13-229-80-199.ap-southeast-1.compute.amazonaws.com
+Shubh:  ubuntu@ec2-18-141-203-18.ap-southeast-1.compute.amazonaws.com
+Akash: ubuntu@ec2-3-0-89-9.ap-southeast-1.compute.amazonaws.com
+Nikhar: ubuntu@ec2-13-215-205-203.ap-southeast-1.compute.amazonaws.com
+Abhi : ubuntu@ec2-18-140-63-238.ap-southeast-1.compute.amazonaws.com
+Shreya:ubuntu@ec2-3-1-101-141.ap-southeast-1.compute.amazonaws.com
+Prem: ubuntu@ec2-18-136-212-192.ap-southeast-1.compute.amazonaws.com

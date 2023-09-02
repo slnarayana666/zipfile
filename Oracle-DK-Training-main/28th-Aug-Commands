@@ -1,0 +1,71 @@
+ 1  yum update -y
+    2  yum install docker -y
+    3  docker --version
+    4  service docker status
+    5  service docker start
+    6  service docker status
+    7  docker ps
+    8  docker ps -a
+    9  docker rm fab8ffd7552b
+   10  docker ps
+   11  docker run -it --name orcle_env ubuntu /bin/bash
+   12  docker ps
+   13  docker commit docker-training orcle_env
+   14  docker commit orcle_env docker-enV
+   15  docker commit orcle_env docker-env
+   16  docker images
+   17  docker images
+   18  docker run -it --name from-env docker-env /bin/bash
+   19  docker images
+   20  docker tag docker-env muralisocial/docker-env:1.0
+   21  docker images
+   22  docker push docker tag local-image:tagname new-repo:tagname
+   23  docker push muralisocial123/docker-env:1.0
+   24  docker push muralisocial/docker-env:1.0
+   25  docker push muralisocial123/docker-env:1.0
+   26  docker push muralisocial123/docker-env:1.0
+   27  docker images
+   28  docker tag docker-env muralisocial123/docker-env:1.0
+   29  docker push muralisocial123/docker-env:1.0
+   30  docker pull ubuntu
+   31  docker images
+   32  docker pull amazonlinux
+   33  docker images
+   34  docker pull nginx
+   35  docker images
+   36  docker create ubuntu /bin/bash
+   37  docker ps
+   38  docker ps -a
+   39  docker start fab8ffd7552b
+   40  docker ps -a
+   41  docker create -it --name sample_web ubuntu /bin/bash
+   42  docker ps -a
+   43  docker start sample_web
+   44  docker ps
+   45  docker attach sample_web
+   46  docker ps
+   47  docker ps
+   48  docker inspect b3b7af7f9741
+   49  docker ps
+   50  docker stop sample_web
+   51  docker ps
+   52  docker ps -a
+   53  docker run -it --name oracle amazonlinux /bin/bash
+   54  docker ps
+   55  docker ps
+   56  docker rm oracle
+   57  docker rm -f oracle
+   58  docker images
+   59  docker rmi amazonlinux
+   60  docker images
+   61  docker container ls
+   62  docker container ls -a
+   63  docker inspect b3b7af7f9741
+   64  docker start b3b7af7f9741
+   65  docker inspect b3b7af7f9741
+   66  docker images
+   67  docker inspect eea7b3dcba7e
+   68  docker pull muralisocial123/python-app-sample:1.0
+   69  docker images
+   70  docker inspect 0ff70930679c
+   71  docker ps

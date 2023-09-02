@@ -1,0 +1,10 @@
+KotiReddy - ec2-user@ec2-13-234-240-9.ap-south-1.compute.amazonaws.com
+Prem - ec2-user@ec2-43-205-119-17.ap-south-1.compute.amazonaws.com
+Shreya : ec2-user@ec2-3-111-150-46.ap-south-1.compute.amazonaws.com
+Nishika -  ec2-user@ec2-3-109-182-125.ap-south-1.compute.amazonaws.com
+Mansi - ec2-user@ec2-65-2-39-189.ap-south-1.compute.amazonaws.com
+Aryan - ec2-user@ec2-13-233-134-35.ap-south-1.compute.amazonaws.com
+Nikhar - ec2-user@ec2-3-6-39-217.ap-south-1.compute.amazonaws.com
+Shubh - ec2-user@ec2-13-127-97-253.ap-south-1.compute.amazonaws.com
+Akash - ec2-user@ec2-13-233-112-250.ap-south-1.compute.amazonaws.com
+Abhinandan - ec2-user@ec2-65-1-136-214.ap-south-1.compute.amazonaws.com

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-config
+data:
+  name: murali
+  course: dk
+  key3: |
+    Hello
+    Welcome to Config maps
+    Multiline testing

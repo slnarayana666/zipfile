@@ -1,0 +1,50 @@
+
+WHAT IS RANCHER ?
+Rancher is a Kubernetes management tool to deploy and run clusters anywhere and on any provider.
+Rancher is a complete container management platform for Kubernetes, giving you the tools to successfully run Kubernetes anywhere.
+                                                                 or
+Rancher is an open source software platform that enables organizations to run containers in production. It makes simple to create clusters, manage multiple Kubernetes clusters and gives a nice user interface for monitoring and managing them.
+
+Run Kubernetes Everywhere :
+Kubernetes has become the container orchestration standard. Most cloud and virtualization vendors now offer it as standard infrastructure. Rancher users have the choice of creating Kubernetes clusters with Rancher Kubernetes Engine (RKE) or cloud Kubernetes services, such as GKE, AKS, and EKS. Rancher users can also import and manage their existing Kubernetes clusters created using any Kubernetes distribution or installer.
+Empower DevOps Teams:
+Rancher provides an intuitive user interface for DevOps engineers to manage their application workload. The user does not need to have in-depth knowledge of Kubernetes concepts to start using Rancher. Rancher catalog contains a set of useful DevOps tools. Rancher is certified with a wide selection of cloud native ecosystem products, including, for example, security tools, monitoring systems, container registries, and storage and networking drivers.
+
+The following figure illustrates the role Rancher plays in IT and DevOps organizations. Each team deploys their applications on the public or private clouds they choose. IT administrators gain visibility and enforce policies across all users, clusters, and clouds.
+
+
+
+
+
+Working with Kubernetes :
+•	Provisioning Kubernetes clusters: The Rancher API server can provision Kubernetes on existing nodes, or perform Kubernetes upgrades.
+
+•	Managing projects: A project is a group of multiple namespaces and access control policies within a cluster. A project is a Rancher concept, not a Kubernetes concept, which allows you to manage multiple namespaces as a group and perform Kubernetes operations in them. The Rancher UI provides features for project administration and for managing applications within projects.
+
+Working with Cloud Infrastructure :
+•	Tracking nodes: The Rancher API server tracks identities of all the nodes in all clusters.
+•	Setting up infrastructure: When configured to use a cloud provider, Rancher can dynamically provision new nodes and persistent storage in the cloud.
+Cluster Visibility
+•	Logging: Rancher can integrate with a variety of popular logging services and tools that exist outside of your Kubernetes clusters.
+
+•	Monitoring: Using Rancher, you can monitor the state and processes of your cluster nodes, Kubernetes components, and software deployments through integration with Prometheus, a leading open-source monitoring solution.
+
+•	Alerting: To keep your clusters and applications healthy and driving your organizational productivity forward, you need to stay informed of events occurring in your clusters and projects, both planned and unplanned.
+
+How Install Rancher on Linux Platform:
+
+Step1 : Prepare a Linux Host : 
+Prepare a Linux host with any supported Linux distribution including openSUSE and at least 4GB of memory.
+Step2 : Install Docker on Host Machine : Docker is required to be installed on nodes where the Rancher server will be installed .
+curl https://releases.rancher.com/install-docker/20.10.sh | sh
+Step3: sudo usermod –aG docker $USER && newgrp docker
+Step4: Install Rancher Server on Container by using below command.
+$ sudo docker run --privileged -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
+
+
+
+
+
+
+
+
